@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches
+.matplotlib_cache/
+.cache/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Dados gerados / processados
+data/output/*
+!data/output/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+estimativa_milho/data/output/*
+!estimativa_milho/data/output/.gitkeep
+estimativa_milho/data/raw/*
+!estimativa_milho/data/raw/.gitkeep
+estimativa_milho/data/processed/*
+!estimativa_milho/data/processed/.gitkeep
+
+# Subdiretórios de referência e agentes
+.ref_*/
+.agents/
+.codex/
+.vscode/
+.idea/
+
+# Sistema operacional e temporários
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.zip
+*.tar.gz

@@ -1,0 +1,10 @@
+municipio: "Braco do Norte"
+uf: "SC"
+data_inicio: "2023-09-01"
+data_fim: "2024-04-30"
+safra: "verao"
+limiar_provavel: 0.70
+limiar_possivel: 0.50
+area_minima_ha: 0.50
+max_cenas: 12
+pasta_saida: "data/output"

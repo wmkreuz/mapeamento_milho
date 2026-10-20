@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "amostra_milho_turvo_11ha",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "amostra_milho_turvo",
+        "municipio": "Turvo",
+        "uf": "SC",
+        "classe": "milho",
+        "area_informada_ha": 11.0,
+        "data_inicio_ciclo": "2025-07-20",
+        "data_fim_ciclo": "2026-01-01",
+        "fonte": "usuario_maps_apple_screenshot",
+        "observacao": "Poligono aproximado a partir do centro/span do link e do contorno desenhado na imagem. Pode servir como amostra regional de milho, mas no pipeline atual so treina o RF quando a amostra cai dentro do raster processado."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-49.70231398, -28.94172194],
+            [-49.70106522, -28.94272581],
+            [-49.70345257, -28.94507528],
+            [-49.70372191, -28.94518919],
+            [-49.70405246, -28.94503968],
+            [-49.70503188, -28.94558077],
+            [-49.70696624, -28.94442740],
+            [-49.70231398, -28.94172194]
+          ]
+        ]
+      }
+    }
+  ]
+}

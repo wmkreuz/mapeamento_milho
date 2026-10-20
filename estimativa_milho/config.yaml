@@ -1,0 +1,40 @@
+defaults:
+  cultura: milho
+  safra: manual
+  data_inicio: "2023-09-01"
+  data_fim: "2024-04-30"
+  nuvem_maxima: 40
+  resolucao_m: 10
+  limiar_provavel: 0.70
+  limiar_possivel: 0.50
+  area_minima_ha: 0.50
+  max_cenas: 18
+  min_datas: 5
+  permitir_poucas_datas: false
+  usar_random_forest: true
+  pasta_saida: data/output
+  pasta_cache: data/raw
+  fonte_stac: planetary-computer
+
+fenologia:
+  verao:
+    pico_inicio_mes: 11
+    pico_fim_mes: 2
+    ndvi_max_bom: [0.55, 0.82]
+    amplitude_boa: [0.25, 0.60]
+  safrinha:
+    pico_inicio_mes: 3
+    pico_fim_mes: 6
+    ndvi_max_bom: [0.50, 0.80]
+    amplitude_boa: [0.22, 0.58]
+  manual:
+    pico_inicio_mes: 1
+    pico_fim_mes: 12
+    ndvi_max_bom: [0.50, 0.85]
+    amplitude_boa: [0.20, 0.65]
+
+mascaras:
+  ndvi_permanente_alto: 0.65
+  fracao_alto_permanente: 0.75
+  ndwi_agua: 0.20
+  ndvi_urbano_max: 0.20
